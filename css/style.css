@@ -1,0 +1,130 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #E5E5E5;;
+    --acent-color: #2196F3;
+    --secondary-color: #212121;
+}
+body {
+background-color: var(--title-text-color);
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+}
+.header {
+    background-color: #FFFFFF;
+}
+.logo {
+/* color: #000000; */
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.18;
+text-decoration: none;
+}
+
+.logo span {
+    color: var(--acent-color);
+}
+/* site nav */
+.list {
+    list-style: none;
+    
+}
+.site-nav a {
+    color: var(--secondary-color);
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+.auth-nav a {
+    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+.site-nav a:hover, 
+.site-nav a:focus,
+.site-nav a:active,
+.auth-nav a:hover,
+.auth-nav a:focus,
+.auth-nav a:active {
+    color: var(--acent-color);
+}
+.section-title {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.site-nav .link {
+    color: var(--acent-color);
+}
+.site-nav .link.current {
+    color: var(--acent-color);
+}
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #FFFFFF;
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* feature */
+.feature-list .title {
+    color: var(--secondary-color);
+}
+.title-text {
+    color: var(--primary-text-color);
+    line-height: 1.71;
+}
+.team-list .title-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+}
+    
+
+.team-list h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+/* button */
+.button {
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+}
+.button a:hover, 
+.button a:focus,
+.button a:active {
+    color: var(--acent-color);
+}
+
+/* footer */
+.footer {
+    background-color: #2F303A;
+}
+.fotter-nav a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.fotter-nav .adress {
+    color: #FFFFFF;
+}
+.logo .logoStudio {
+    color: #FFFFFF;
+} 
