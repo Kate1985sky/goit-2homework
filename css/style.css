@@ -105,6 +105,7 @@ text-decoration: none;
     letter-spacing: 0.06em;
     font-family: inherit;
     font-weight: 700;
+    background-color: var(--acent-color);
     font-size: 16px;
     line-height: 1.9;
 }
@@ -122,6 +123,7 @@ text-decoration: none;
 .fotter-nav a {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    font-style: normal;
 }
 .fotter-nav a:hover,
 .fotter-nav a:focus {
